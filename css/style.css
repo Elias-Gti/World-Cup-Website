@@ -1,0 +1,145 @@
+/* Googel font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Globle Style section */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;    
+    
+}
+
+/* Top banner section */
+
+.banner-contain{
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+    display: flex;
+}
+.banner-info{
+    margin: 111px 24px 111px 106px;
+    width: 50%;
+    
+}
+.bannar-head-text{
+
+    font-weight: 700;
+    color: white;
+    font-size: 70px;
+    line-height: 80px;
+}
+.banner-detals-text{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+}
+.banner-image{
+    width: 50%;
+    display: flex; 
+    padding-right: 80px;
+    padding-top: 33px;  
+   
+}
+.banner-info button{
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    color: white;
+    font-size: 16px;
+}
+.banner-image img{
+    max-width: 100%;
+}
+
+/* blog section  */
+.main-contain{   
+    width: 1321px; 
+    display: flex; 
+    margin-top: 130px;  
+}
+
+.nav-bar{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar a{
+    display: flex;
+    width: 252px;
+    height: 64px;
+    background-color: white;
+    margin: 15px;    
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #161616;
+    font-weight: 400;
+    font-size: 20px;
+}
+.nav-bar .active{
+    background-color: #DD0000;
+    color: #ffffff;
+}
+.blogs{
+    flex-shrink: initial;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 12px;  
+    margin-left: 24px;
+
+    
+}
+.blog{
+    width: 312px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #E8E8E8;
+    
+}
+
+.info{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.blog .blog-btn a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 4PX 16px;
+}
+.blog-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+}
+.blog-info span,i{
+    width: 24px;
+    height: 24px;
+    color: rgba(22, 22, 22, 0.7);
+    font-size: 16;
+
+}
+.info-sms{
+    margin-left: 30px;
+}
