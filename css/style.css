@@ -55,6 +55,7 @@ body{
     padding: 16px 25px;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 .banner-image img{
     max-width: 100%;
@@ -112,6 +113,9 @@ body{
     box-shadow: 3px 3px 15px #E8E8E8;
     
 }
+.blog-img img{
+    width: 100%;
+}
 
 .info{
     margin-left: 20px;
@@ -159,6 +163,13 @@ body{
     justify-content: center;
     padding-top: 130px;
 }
+.footer-title h1{
+    font-weight: 600;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+   
+}
 .f-container hr{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -169,7 +180,7 @@ body{
 .footre-nav{
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 130px;
+    padding-bottom: 70px;
 }
 .footre-nav a{
     text-decoration: none;
@@ -177,4 +188,21 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+}
+
+.social-nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+
+    
+}
+.social-nav a .fa-brands{
+    text-decoration: none;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    margin: 0 20px;
+    
 }
